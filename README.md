@@ -1,2 +1,11 @@
 # network-design-patterns-kube
-Network Design Pattern with Kubernetes
+
+쿠버네티스로 구현하는 네트워크 디자인패턴
+차후 판단에 따라 쿠버네티스가 아닌 도커 컨테이너로 대체 가능
+
+# 계획
+
+- 디자인패턴의 대분류 / 중분류 / 소분류로 디렉터리 구성
+  - 각 소분류 디렉터리에는 md 파일을 통해 개념 설명
+- vagrant를 통해 로컬에서 실행할 수 있도록 구현
+- 간단한 nestjs 서버를 두고 swagger를 통해 테스트까지 수행할 수 있도록 함
